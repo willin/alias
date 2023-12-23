@@ -3,6 +3,7 @@
   // import { t } from '@svelte-dev/i18n';
   import Navbar from '$components/Navbar.svelte';
   import { onNavigate } from '$app/navigation';
+  import Bootstrap from '$components/Bootstrap.svelte';
 
   onNavigate((navigation) => {
     // @ts-ignore
@@ -24,6 +25,7 @@
 <main
   class="w-[720px] max-w-full mx-auto shadow bg-neutral/90 text-neutral-content p-2 sm:p-4 mb-20">
   <slot />
+  <Bootstrap />
 </main>
 
 <footer class="text-center text-sm mt-4">
@@ -54,9 +56,4 @@
     </a>
   </p>
 </footer>
-{#if true}
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5059418763237956"
-    crossorigin="anonymous"></script>
-{/if}
+

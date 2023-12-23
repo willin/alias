@@ -56,44 +56,46 @@
 <SEO />
 
 <div class="flex justify-center flex-col">
-  <List aliases={data.aliases} />
-  <AdSlot />
-  {#if data?.aliases.length < limit}
-    <Create />
-  {/if}
-  <div>
-    <h3 class="pt-4 text-info">{$t('common.limit_info')}</h3>
-    <ul class="list-disc pl-4">
-      <li>
-        {$t('common.user')}:{' '}
-        <span class="badge badge-primary">{MAX_LIMIT_USER}</span>
-      </li>
-      <li>
-        {$t('common.follower')}:{' '}
-        <span class="badge badge-secondary">
-          {MAX_LIMIT_FOLLOWER}
-        </span>
-        <a
-          href="https://github.com/willin"
-          target="_blank"
-          class="btn btn-xs btn-secondary ml-2"
-          rel="noreferrer">
-          {$t('common.follow')}
-        </a>
-      </li>
-      <li>
-        {$t('common.vip')}:{' '}
-        <span class="badge badge-accent">{MAX_LIMIT_VIP}</span>
-        <a
-          target="_blank"
-          class="btn btn-xs btn-accent ml-2"
-          href={$locale === 'zh'
-            ? 'https://afdian.net/a/willin'
-            : 'https://github.com/sponsors/willin'}
-          rel="noreferrer">
-          {$t('common.donate')}
-        </a>
-      </li>
-    </ul>
-  </div>
+  <article class="prose !max-w-full w-full">
+    <List aliases={data.aliases} />
+    <AdSlot />
+    {#if data?.aliases.length < limit}
+      <Create />
+    {/if}
+    <div>
+      <h3 class="pt-4 text-info">{$t('common.limit_info')}</h3>
+      <ul class="list-disc pl-4">
+        <li>
+          {$t('common.user')}:{' '}
+          <span class="badge badge-primary">{MAX_LIMIT_USER}</span>
+        </li>
+        <li>
+          {$t('common.follower')}:{' '}
+          <span class="badge badge-secondary">
+            {MAX_LIMIT_FOLLOWER}
+          </span>
+          <a
+            href="https://github.com/willin"
+            target="_blank"
+            class="btn btn-xs btn-secondary ml-2"
+            rel="noreferrer">
+            {$t('common.follow')}
+          </a>
+        </li>
+        <li>
+          {$t('common.vip')}:{' '}
+          <span class="badge badge-accent">{MAX_LIMIT_VIP}</span>
+          <a
+            target="_blank"
+            class="btn btn-xs btn-accent ml-2"
+            href={$locale === 'zh'
+              ? 'https://afdian.net/a/willin'
+              : 'https://github.com/sponsors/willin'}
+            rel="noreferrer">
+            {$t('common.donate')}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
 </div>

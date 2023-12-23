@@ -22,7 +22,9 @@ export const dict: I18nDict = {
     donate: '⚡ Sponsor Willin',
     user: 'User',
     follower: 'Github Follower',
-    vip: 'Sponsor / VIP'
+    vip: 'Sponsor / VIP',
+    adblock: 'Adblock Detected',
+    adblock_message: 'Please disable adblock to continue using this site.'
   },
   alias: {
     alias: 'Alias',

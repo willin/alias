@@ -34,7 +34,8 @@ html {
 @layer components {
   #background {
     @apply fixed inset-0 saturate-150 z-[-1];
-    background: url('https://willin.wang/images/bg.jpg') no-repeat center center fixed;
+    background: url('https://willin.wang/images/bg.jpg') no-repeat center center
+      fixed;
     background-size: cover;
     transition: all 0.25s ease-in-out;
     transform-style: preserve-3d;
@@ -100,9 +101,7 @@ table {
 .prose {
   @apply min-w-full;
 }
-.prose > * {
-  @apply min-w-[95%] w-full lg:w-[95%] mx-auto;
-}
+
 .prose h1 a,
 .prose h2 a {
   @apply relative text-primary-content bg-primary border-primary-content mx-auto rounded shadow-lg text-center w-full py-1;
@@ -112,10 +111,6 @@ table {
 .prose h5,
 .prose h6 {
   @apply text-secondary relative;
-}
-
-.prose table {
-  @apply table min-w-[95%] w-full lg:w-[95%] table-zebra shadow mx-auto;
 }
 
 .prose tr {
