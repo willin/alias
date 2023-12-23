@@ -26,12 +26,34 @@
   <slot />
 </main>
 
-<footer class="footer items-center p-4 bg-neutral text-neutral-content">
-  <aside class="items-center grid-flow-col">
-    <p>Copyright © 2023 - <a href="https://willin.wang">Willin Wang</a> All right reserved</p>
-  </aside>
+<footer class="text-center text-sm mt-4">
+  <p>
+    <a
+      href="https://github.com/willin"
+      target="_blank"
+      class="inline-block"
+      rel="noreferrer">
+      <img
+        src="https://img.shields.io/github/followers/willin.svg?style=social&amp;label=Followers"
+        alt="Github Followers" />
+    </a>{' '}
+    <a
+      href="https://github.com/willin/alias"
+      target="_blank"
+      class="inline-block"
+      rel="noreferrer">
+      <img
+        alt="GitHub Repo stars"
+        src="https://img.shields.io/github/stars/willin/alias?style=social" />
+    </a>
+  </p>
+  <p>
+    &copy;{' '}
+    <a href="https://willin.wang" target="_blank" rel="noreferrer">
+      Willin Wang
+    </a>
+  </p>
 </footer>
-
 {#if true}
   <script
     async
