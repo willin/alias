@@ -102,6 +102,13 @@ table {
   @apply min-w-full;
 }
 
+.prose table a {
+  @apply text-primary;
+}
+.prose table td {
+  @apply text-secondary;
+}
+
 .prose h1 a,
 .prose h2 a {
   @apply relative text-primary-content bg-primary border-primary-content mx-auto rounded shadow-lg text-center w-full py-1;

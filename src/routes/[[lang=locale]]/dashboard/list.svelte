@@ -40,8 +40,7 @@
 </script>
 
 <div class="overflow-x-auto w-full">
-  <table
-    class="table table-md min-w-full table-zebra table-pin-rows table-pin-cols">
+  <table class="table table-md min-w-full table-pin-rows table-pin-cols">
     <thead>
       <tr>
         <th>
@@ -61,11 +60,11 @@
     <tbody>
       {#each aliases as alias (alias)}
         <tr>
-          <th>
+          <td>
             <a href={webfinger(alias.alias)} target="_blank">
               {alias.alias}
             </a>
-          </th>
+          </td>
           <td>
             <a href={userLink(alias.account)} target="_blank">
               {alias.account}

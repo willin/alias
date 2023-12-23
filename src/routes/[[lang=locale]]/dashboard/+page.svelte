@@ -56,7 +56,7 @@
 <SEO />
 
 <div class="flex justify-center flex-col">
-  <article class="prose !max-w-full w-full">
+  <article class="prose">
     <List aliases={data.aliases} />
     <AdSlot />
     {#if data?.aliases.length < limit}
