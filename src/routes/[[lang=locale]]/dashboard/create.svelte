@@ -14,7 +14,7 @@
   let account = $state('');
 
   async function checkAlias() {
-    if (BLOCKED_ALIASES.includes(prefix)) {
+    if (prefix.length < 3 || BLOCKED_ALIASES.includes(prefix)) {
       validAlias = false;
       return;
     }
@@ -54,6 +54,11 @@
     const result: ActionResult = deserialize(await response.text());
 
     if (result.type === 'success') {
+      prefix = '';
+      account = '';
+      suffix = 'js.cool';
+      validAccount = undefined;
+      validAlias = undefined;
       // rerun all `load` functions, following the successful update
       await invalidateAll();
     }
