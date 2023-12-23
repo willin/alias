@@ -49,12 +49,22 @@
     </h3>
     <ol class="list-disc list-inside my-4">
       <li>
-        <a href="https://log.lu/@willin" target="_blank"> i@v0.md </a>
-        {$t('common.refer_to')} @willin@log.lu
+        <a
+          href="https://v0.md/.well-known/webfinger?resource=acct:i@v0.md"
+          target="_blank">
+          i@v0.md
+        </a>
+        {$t('common.refer_to')}
+        <a href="https://log.lu/@willin" target="_blank"> @willin@log.lu </a>
       </li>
       <li>
-        <a href="https://log.lu/@willin" target="_blank"> i@sh.gg </a>
-        {$t('common.refer_to')} @willin@log.lu
+        <a
+          href="https://sh.gg/.well-known/webfinger?resource=acct:i@sh.gg"
+          target="_blank">
+          i@sh.gg
+        </a>
+        {$t('common.refer_to')}
+        <a href="https://log.lu/@willin" target="_blank"> @willin@log.lu </a>
       </li>
     </ol>
     <a
