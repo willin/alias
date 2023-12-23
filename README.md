@@ -1,38 +1,28 @@
-# create-svelte
+# 联邦宇宙别名服务
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## A Fediverse Alias Service for public
 
-## Creating a project
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Followers)](https://github.com/willin)
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [网站](https://alias.willin.wang) | [Webiste](https://alias.willin.wang/en)
+- [自行部署 Deploy for your own domain](https://github.com/willin/fediverse-alias)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 赞助 Sponsor
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+维护者 Owner： [Willin Wang](https://willin.wang)
 
-## Developing
+如果您对本项目感兴趣，可以通过以下方式支持我：
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- 关注我的 Github 账号：[@willin](https://github.com/willin) [![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Followers)](https://github.com/willin)
+- 参与 [爱发电](https://afdian.net/@willin) 计划
+- 支付宝或微信[扫码打赏](https://user-images.githubusercontent.com/1890238/89126156-0f3eeb80-d516-11ea-9046-5a3a5d59b86b.png)
 
-```bash
-npm run dev
+Donation ways:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Github: <https://github.com/sponsors/willin>
+- Paypal: <https://paypal.me/willinwang>
+- Alipay or Wechat Pay: [QRCode](https://user-images.githubusercontent.com/1890238/89126156-0f3eeb80-d516-11ea-9046-5a3a5d59b86b.png)
 
-## Building
+## 许可证 License
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Apache-2.0
