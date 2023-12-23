@@ -9,7 +9,7 @@
 </script>
 
 <ins
-  class="adsbygoogle"
+  class="adsbygoogle my-2"
   style="display:block"
   data-ad-format="autorelaxed"
   data-ad-client="ca-pub-5059418763237956"
