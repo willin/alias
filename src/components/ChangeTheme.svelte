@@ -35,7 +35,7 @@
     tabindex="0"
     class="dropdown-content bg-neutral text-neutral-content rounded-t-box rounded-b-box top-px mt-14 w-60 h-[70vh] overflow-y-auto shadow-2xl">
     <div class="grid grid-cols-1 gap-3 p-3">
-      {#each themes as theme}
+      {#each themes as theme (theme.id)}
         <button
           class="outline-neutral-content overflow-hidden rounded-lg outline-2 outline-offset-2 hover:outline"
           data-set-theme={theme.id}

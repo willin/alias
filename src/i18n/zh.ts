@@ -11,7 +11,11 @@ export const dict: I18nDict = {
     title: '你好，世界'
   },
   common: {
-    get_started: '开始使用',
-    npm_downloads: 'NPM 下载量'
+    total: '总计别名记录',
+    available: '可注册域名后缀',
+    login: '申请 / 管理',
+    example: '示例',
+    refer_to: '指向',
+    deploy: '部署你自己的别名服务'
   }
 };

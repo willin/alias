@@ -11,7 +11,11 @@ export const dict: I18nDict = {
     title: 'Hello World'
   },
   common: {
-    get_started: 'Get Started',
-    npm_downloads: 'NPM Downloads'
+    total: 'Total Aliases Registered',
+    available: 'Available Domains',
+    login: 'Apply / Manage',
+    example: 'Example',
+    refer_to: 'Refer to',
+    deploy: 'Deploy your own alias service'
   }
 };

@@ -18,9 +18,11 @@
   });
 </script>
 
+<div id="background"></div>
 <Navbar />
 
-<main>
+<main
+  class="w-[720px] max-w-full mx-auto shadow bg-neutral/90 text-neutral-content p-2 sm:p-4 mb-20">
   <slot />
 </main>
 

@@ -31,6 +31,33 @@ html {
   min-height: 100vh;
 }
 
+@layer components {
+  #background {
+    @apply fixed inset-0 saturate-150 z-[-1];
+    background: url('https://willin.wang/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: all 0.25s ease-in-out;
+    transform-style: preserve-3d;
+  }
+
+  [data-theme='dark'] #background,
+  [data-theme='synthwave'] #background,
+  [data-theme='halloween'] #background,
+  [data-theme='forest'] #background,
+  [data-theme='black'] #background,
+  [data-theme='luxury'] #background,
+  [data-theme='dracula'] #background,
+  [data-theme='business'] #background,
+  [data-theme='night'] #background,
+  [data-theme='coffee'] #background,
+  [data-theme='dim'] #background,
+  [data-theme='sunset'] #background {
+    @apply brightness-50 saturate-100;
+    transform: rotate(-3deg) scale(1.2);
+    /* scaleX(-1); */
+  }
+}
+
 div,
 p {
   @apply break-all;

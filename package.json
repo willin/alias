@@ -11,6 +11,9 @@
     "lint": "prettier --write . && eslint ."
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@miniflare/d1": "^2.14.1",
+    "@miniflare/shared": "^2.14.1",
     "@sveltejs/adapter-cloudflare": "^3.0.1",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -18,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.4.16",
+    "better-sqlite3": "^9.2.2",
     "daisyui": "^4.4.23",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^9.1.0",

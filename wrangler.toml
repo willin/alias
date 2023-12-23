@@ -1,1 +1,6 @@
 compatibility_flags = [ "nodejs_compat" ]
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "dns"
+database_id = "20204091-f55f-430d-a100-2292d8ea305a"

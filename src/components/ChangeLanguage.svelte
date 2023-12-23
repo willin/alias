@@ -34,12 +34,12 @@
     tabindex="0"
     class="dropdown-content bg-neutral text-neutral-content rounded-t-box rounded-b-box top-px mt-14 w-48 overflow-y-auto shadow-2xl">
     <ul class="menu menu-compact gap-1 p-3">
-      {#each $locales as langItem}
+      {#each $locales as langItem (langItem)}
         {#if $t('__name', {}, langItem) !== '__name'}
           <li>
             <a
               class:active={$locale === langItem}
-              href={`${langItem !== fallbackLng ? `/${langItem}` : ''}${pathname}`}
+              href={`${langItem !== fallbackLng ? `/${langItem}` : ''}${pathname || '/'}`}
               onclick={() => locale.set(langItem)}>
               {#if $t('__flag', {}, langItem) !== '__flag'}
                 <img

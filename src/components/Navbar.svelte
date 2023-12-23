@@ -2,7 +2,7 @@
   import { linkPrefix } from '$lib/stores/prefix';
 </script>
 
-<header class="sticky top-0 flex justify-center w-full z-[9999]">
+<header class="sticky top-0 flex justify-center w-full z-[9999] mb-4">
   <div class="navbar bg-neutral text-neutral-content opacity-90 hover:opacity-100">
     <div class="navbar-start">
       <a href={`${$linkPrefix || '/'}`} class="btn btn-ghost text-xl">
@@ -38,7 +38,7 @@
         </svg>
       </a>
       <a
-        href="https://github.com/willin/svelte-turbo"
+        href="https://github.com/willin/alias"
         rel="noreferrer"
         target="_blank"
         class="btn btn-ghost gap-1 normal-case">
