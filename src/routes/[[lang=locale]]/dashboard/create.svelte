@@ -1,7 +1,7 @@
 <script lang="ts">
   import { applyAction, deserialize } from '$app/forms';
   import { invalidateAll } from '$app/navigation';
-  import { domains } from '$lib';
+  import { BLOCKED_ALIASES, domains } from '$lib';
   import { t } from '@svelte-dev/i18n';
   import type { ActionResult } from '@sveltejs/kit';
 
@@ -14,6 +14,10 @@
   let account = $state('');
 
   async function checkAlias() {
+    if (BLOCKED_ALIASES.includes(prefix)) {
+      validAlias = false;
+      return;
+    }
     const response = await fetch('?/checkAlias', {
       method: 'POST',
       body: JSON.stringify({ alias })

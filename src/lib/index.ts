@@ -20,3 +20,24 @@ export type Alias = {
   account: string;
   created_at: string;
 };
+
+export const BLOCKED_ALIASES = [
+  'willin',
+  'v0',
+  'js',
+  'cool',
+  'i',
+  'admin',
+  'web',
+  'master',
+  'root',
+  'user',
+  'auth',
+  'api',
+  'dev',
+  'web',
+  'main',
+  'bot',
+  'push',
+  'proxy'
+];
