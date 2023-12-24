@@ -11,6 +11,7 @@ export const dict: I18nDict = {
     title: 'Hello World'
   },
   common: {
+    domain: 'Apply for free sub domains',
     total: 'Total Aliases Registered',
     available: 'Available Domains',
     login: 'Apply / Manage',

@@ -95,6 +95,14 @@
             {$t('common.donate')}
           </a>
         </li>
+        <li>
+          <a
+            href="https://domain.willin.wang"
+            target="_blank"
+            class="text-success no-underline my-2">
+            {$t('common.domain')}
+          </a>
+        </li>
       </ul>
     </div>
   </article>

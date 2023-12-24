@@ -11,6 +11,7 @@ export const dict: I18nDict = {
     title: '你好，世界'
   },
   common: {
+    domain: '申请免费二级域名',
     total: '总计别名记录',
     available: '可注册域名后缀',
     login: '申请 / 管理',

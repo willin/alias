@@ -41,9 +41,17 @@
         </li>
       {/each}
     </ol>
-    <a href="/auth/sso" class="btn glass mb-4 text-primary w-full my-2">
+    <a href="/auth/sso" class="btn glasstext-primary w-full my-2">
       {$t('common.login')}
     </a>
+    <div class="my-2">
+      <a
+        href="https://domain.willin.wang"
+        target="_blank"
+        class="text-secondary">
+        {$t('common.domain')}
+      </a>
+    </div>
     <h3>
       {$t('common.example')}
     </h3>
