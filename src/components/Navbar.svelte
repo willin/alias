@@ -3,7 +3,8 @@
 </script>
 
 <header class="sticky top-0 flex justify-center w-full z-[9999] mb-4">
-  <div class="navbar bg-neutral text-neutral-content opacity-90 hover:opacity-100">
+  <div
+    class="navbar bg-neutral text-neutral-content opacity-90 hover:opacity-100">
     <div class="navbar-start">
       <a href={`${$linkPrefix || '/'}`} class="btn btn-ghost text-xl">
         <svg
@@ -24,7 +25,7 @@
 
     <div class="navbar-end">
       <a
-        href="https://discord.gg/XpQfJs4J"
+        href="https://discord.gg/sRpfQ9VVZH"
         rel="noreferrer"
         target="_blank"
         class="btn btn-ghost gap-1 normal-case">
@@ -72,7 +73,8 @@
             class="ml-1 hidden h-3 w-3 fill-current opacity-60 sm:inline-block"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2048 2048">
-            <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z" />
+            <path
+              d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z" />
           </svg>
         </div>
       {:then Module}
@@ -98,7 +100,8 @@
             class="ml-1 hidden h-3 w-3 fill-current opacity-60 sm:inline-block"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2048 2048">
-            <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z" />
+            <path
+              d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z" />
           </svg>
         </div>
       {:then Module}
